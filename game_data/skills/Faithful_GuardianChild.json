@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Faithful_GuardianChild",
+        "name": "Faithful Guardian",
+        "desc": "Seth currently protecting this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Lord' in unit.tags"
+            ]
+        ]
+    }
+]

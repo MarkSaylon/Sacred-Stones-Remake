@@ -1,0 +1,18 @@
+[
+    {
+        "name": "EirikaSpellsGreatLord",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Eirika' and unit.klass == 'Eirika_Great_Lord'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.level>=2",
+            "    give_skill;Eirika;Canto",
+            "    sound;Message",
+            "    alert;Eirika Learned <blue>Fire</blue>",
+            ""
+        ]
+    }
+]

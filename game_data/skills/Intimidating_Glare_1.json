@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Intimidating_Glare_1",
+        "name": "Intimidating Glare",
+        "desc": "Gilliam's stature and stoic face intimidates enemies. Enemies adjacent to Gilliam will be unable to double",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "aura",
+                "Intimidated"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

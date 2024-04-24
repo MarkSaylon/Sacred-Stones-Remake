@@ -1,0 +1,21 @@
+[
+    {
+        "name": "FranzLevelUp",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Franz'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;statUps;sum(stat_changes.values())",
+            "if;{v:statUps}>3",
+            "    add_portrait;Franz;LevelUpRight;;Smile;immediate",
+            "    speak;Franz;Do you see me, Forde?",
+            "else",
+            "    add_portrait;Franz;LevelUpRight;immediate",
+            "    speak;Franz;I-I will do better!",
+            "end"
+        ]
+    }
+]

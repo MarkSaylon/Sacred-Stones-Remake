@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Eirika'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Eirika;Left;normal",
+            "s;Eirika;Father, brother...|Please be safe.",
+            "remove_portrait;Eirika",
+            "remove_unit;Eirika;fade;north",
+            "win_game"
+        ]
+    }
+]

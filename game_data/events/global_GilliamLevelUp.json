@@ -1,0 +1,21 @@
+[
+    {
+        "name": "GilliamLevelUp",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Gilliam'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;statUps;sum(stat_changes.values())",
+            "if;{v:statUps}>3",
+            "    add_portrait;Gilliam;LevelUpRight;;Smile;immediate",
+            "    speak;Gilliam;Still unmatched.",
+            "else",
+            "    add_portrait;Gilliam;LevelUpRight;immediate",
+            "    speak;Gilliam;...",
+            "end"
+        ]
+    }
+]

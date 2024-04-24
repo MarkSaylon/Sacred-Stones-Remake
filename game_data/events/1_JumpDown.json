@@ -1,0 +1,14 @@
+[
+    {
+        "name": "JumpDown",
+        "trigger": "Jump",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;{unit};4,5;swoosh"
+        ]
+    }
+]

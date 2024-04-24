@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Rein1",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "spawn_group;Pursue1;east;Pursue1",
+            "add_portrait;SoldierRed;Right",
+            "s;SoldierRed;We have the princess in our sights!|Take down that wounded knight!",
+            "remove_portrait;SoldierRed"
+        ]
+    }
+]

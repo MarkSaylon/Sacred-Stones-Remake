@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Well_Practiced",
+        "name": "Well Practiced",
+        "desc": "Eirika is used to Ephraim's lance strikes in training. <red>She ignores Lance advantage against swords</red> and will get damage + 2 when attacking lance wielding foes.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            7
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "item_system.weapon_type(target, target.get_weapon()) == \"Lance\" and mode == 'attack'"
+            ],
+            [
+                "item_override",
+                "WellPracticedChild"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

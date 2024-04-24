@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Faithful_Guardian_Skill",
+        "name": "Faithful Guardian",
+        "desc": "Seth is always vigilant and ready to defend the twins. Eirika and Ephraim gain +3 defense when Seth is their pair up partner.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "pairup_bonus",
+                "Faithful_GuardianChild"
+            ]
+        ]
+    }
+]

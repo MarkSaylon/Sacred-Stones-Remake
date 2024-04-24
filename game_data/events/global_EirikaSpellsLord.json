@@ -1,0 +1,20 @@
+[
+    {
+        "name": "EirikaSpellsLord",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Eirika' and unit.klass == 'Eirika_Lord'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.level>=5",
+            "    give_skill;Eirika;Fire;;persistent;no_banner",
+            "    sound;Item",
+            "    alert;Eirika Learned <blue>Fire</blue> ",
+            "end",
+            "",
+            " "
+        ]
+    }
+]

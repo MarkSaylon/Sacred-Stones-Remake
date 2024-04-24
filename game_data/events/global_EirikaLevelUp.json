@@ -1,0 +1,22 @@
+[
+    {
+        "name": "EirikaLevelUp",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Eirika'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;statUps;sum(stat_changes.values())",
+            "if;{v:statUps}>3",
+            "    add_portrait;EirikaSmile;LevelUpRight;;Smile;immediate",
+            "    expression;EirikaSmile;CloseEyes",
+            "    speak;EirikaSmile;Just like brother taught me.",
+            "else",
+            "    add_portrait;Eirika;LevelUpRight;immediate",
+            "    speak;Eirika;It seems I have much to learn.",
+            "end"
+        ]
+    }
+]

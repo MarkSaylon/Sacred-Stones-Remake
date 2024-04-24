@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Dragonshield",
+        "name": "Dragonshield",
+        "desc": "Permanently raises Defense by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "value",
+                8000
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

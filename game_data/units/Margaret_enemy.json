@@ -1,0 +1,110 @@
+[
+    {
+        "nid": "Margaret_enemy",
+        "name": "Margaret",
+        "desc": "A wyvern knight of Grado. Loyal and grateful",
+        "variant": null,
+        "level": 6,
+        "klass": "Axe_Wyvern",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 6,
+            "MAG": 7,
+            "SKL": 7,
+            "SPD": 6,
+            "LCK": 4,
+            "DEF": 6,
+            "RES": 2,
+            "CON": 11,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 50,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 15,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MAG": 2,
+            "SKL": 0,
+            "SPD": 3,
+            "LCK": 0,
+            "MOV": 0,
+            "DEF": 0,
+            "HP": 0,
+            "STR": 0,
+            "RES": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Dragonshield",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                31,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Margaret",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

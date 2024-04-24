@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Margaret",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "spawn_group;Wyverns;east;Wyverns",
+            "multi_add_portrait;Margaret;Left;SoldierRed;Right",
+            "s;SoldierRed;There they are!",
+            "s;Margaret;Stand down.|Lord Valter has ordered us not to attack.",
+            "s;SoldierRed;Pardon my rudeness, captain.|But, are we really to follow that madman's orders?|Surely, you see...",
+            "s;Margaret;See what?",
+            "s;SoldierRed;I'm sorry, captain.",
+            "s;Margaret;I'll pretend I did not hear that.|However, the next time I hear such slanderous words...|I'll be the one to cut off your tongue.",
+            "remove_portrait;SoldierRed",
+            "expression;Margaret;CloseEyes",
+            "s;Margaret;Lord Valter...|Just when you've returned.",
+            "remove_portrait;Margaret"
+        ]
+    }
+]

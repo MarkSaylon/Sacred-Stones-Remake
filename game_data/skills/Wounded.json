@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Wounded",
+        "name": "Wounded",
+        "desc": "Seth has a deep wound from the confrontation with Valter. He is not in peak condition.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -6
+                    ],
+                    [
+                        "SPD",
+                        -6
+                    ],
+                    [
+                        "SKL",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

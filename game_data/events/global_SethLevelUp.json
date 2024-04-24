@@ -1,0 +1,21 @@
+[
+    {
+        "name": "SethLevelUp",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Seth'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;statUps;sum(stat_changes.values())",
+            "if;{v:statUps}>3",
+            "    add_portrait;Seth;LevelUpRight;immediate",
+            "    speak;Seth;As my duty requires.",
+            "else",
+            "    add_portrait;Seth;LevelUpRight;;CloseEyes;immediate",
+            "    speak;Seth;My apologies.",
+            "end"
+        ]
+    }
+]
